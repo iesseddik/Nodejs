@@ -1,0 +1,10 @@
+Commencez par vous créer un compte utilisateur sur npm : > npm adduser
+
+
+Une fois que c'est fait, placez-vous dans le répertoire de votre projet à publier. Vérifiez que vous avez :
+
+	Un fichier package.json qui décrit votre module (au moins son nom, sa version et ses dépendances)
+
+	Un fichier README.md (écrit en markdown) qui présente votre module de façon un peu détaillée. N'hésitez pas à y inclure un mini-tutoriel expliquant comment utiliser votre module !
+
+Il ne vous reste plus qu'à faire : > npm publish
