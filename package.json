@@ -1,0 +1,30 @@
+{
+  "name": "framexpress",
+  "version": "1.0.0",
+  "description": "Isma_ExpresstestInNodejs",
+  "main": "Main.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iesseddik/Nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "testing",
+    "learning"
+  ],
+  "author": "Ismael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iesseddik/Nodejs/issues"
+  },
+  "homepage": "https://github.com/iesseddik/Nodejs#readme"
+}
