@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "Isma_ExpresstestInNodejs",
   "main": "Main.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "Main.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iesseddik/Nodejs.git"
