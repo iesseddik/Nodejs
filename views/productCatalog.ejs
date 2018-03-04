@@ -4,22 +4,37 @@
         <meta charset="utf-8">
     </head>
     <body>
+      <script src="productCatalogLibrary.js"></script>
+
       <h1> Menu </h1>
       <a href="/">stopwatch</a>
+
       <h1> Search product by id</h1>
       <form method="post" action="searchProdById">
          <input type="text" name="id" /><button id="searchId">Search</button>
       </form>
       <h1> Examined product</h1>
+      <p>Price :</p>
+      <p>Product Id :</p>
+      <p>Type :</p>
       <h1> List of similar products</h1>
+      <table id="similarProdTable">
+         <tr>
+             <th>Product Id</th>
+             <th>Price</th>
+             <th>Type</th>
+             <th>Examine</th>
+         </tr>
+      </table>
       <h1> List of all products</h1>
-      <p id="timer"></p>
-      <button id="startstop">start/stop</button>
-      <button id="reset">reset</button>
-      <button id="recordtime">record time</button>
-    <p id="pasttime"></p>
+      <table id="allProdTable">
+         <tr>
+             <th>Product Id</th>
+             <th>Price</th>
+             <th>Type</th>
+             <th>Examine</th>
+         </tr>
+      </table>
 
-    <table id = "records"></table>
-    <script src="/stopWatchScript.js"></script>
     </body>
 </html>
